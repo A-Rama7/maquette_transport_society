@@ -1,0 +1,60 @@
+.Navbar {
+    border: 1px solid green;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.Logo_container {
+    /* background-color: black; */
+    width: 100px;
+    height: 100px;
+    border: 1px solid blue;
+    z-index: 10;
+    background-image: url("./mylogo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.link_logo{
+    display: block;
+    height: 100%;
+}
+
+.nav-list{
+    display: flex;
+    border: 1px solid blue;
+    align-items: center;
+    gap: 2rem;
+}
+
+.nav-item{
+    border: 1px solid red;
+}
+
+.flag{
+    display: flex;
+    align-items: center;
+    background-image: url("../../../images/flag.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 40px;
+    width: 50px;
+
+}
+
+/* .nav-item_south_africa{
+    align-items: center;
+} */
+.arrow{
+    margin-top: 5px;
+}
+
+.south_africa{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}

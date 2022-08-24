@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './fonts/muli/Muli.ttf';
-import './fonts/Poppins/Poppins-Regular.ttf'
+import './fonts/Poppins/Poppins-Regular.ttf';
 import { BrowserRouter } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
