@@ -1,7 +1,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import "./Navbar.css";
-// import logo from "./mylogo.png";
+import logo from "../Navbar/noun-truck-1076812.png";
 import { Link } from "react-router-dom";
 
 export default function Navbar() {
@@ -14,8 +14,9 @@ export default function Navbar() {
     return (
         <div className="Navbar">
             <div className="Logo_container">
-                <Link to="#" className="link_logo">
-                    {/* <image src={logo} alt="Logo" /> */}
+                <Link to="#" className="logo">
+                    <img src={logo} alt="Logo" />
+                    <h3 className="Logo_title">Transport Society</h3>
                 </Link>
             </div>
             <ul className={isActive ? "nav-list nav-active ms-auto" : "nav-list ms-auto"}>
