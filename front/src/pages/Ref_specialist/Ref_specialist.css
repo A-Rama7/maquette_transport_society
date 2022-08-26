@@ -1,0 +1,39 @@
+.Ref_specialist {
+  border: 1px solid green;
+  margin-top: 4rem;
+  margin-left: 11rem;
+  margin-right: 3rem;
+}
+.Ref_specialist .Green_title {
+  font-family: "Poppins-ExtraBold";
+  font-size: 20px;
+  color: green;
+  text-align: center;
+}
+.Ref_specialist .Ref_Title {
+  color: black;
+  font-family: "Poppins-ExtraBold";
+  font-size: 2rem;
+  text-align: center;
+}
+.Ref_specialist .Expertise_Grid {
+  margin-top: 4rem;
+}
+.Ref_specialist .Expertise_Grid .Front_car {
+  margin: auto;
+}
+.Ref_specialist .Expertise_Grid .cell {
+  border: 1px solid black;
+  font-family: "Poppins";
+  height: 200px;
+}
+.Ref_specialist .Expertise_Grid .cell .Cell_title {
+  font-family: "Poppins-ExtraBold";
+  font-size: 20px;
+}
+.Ref_specialist .Expertise_Grid .Cell_left {
+  text-align: end;
+}
+.Ref_specialist .Expertise_Grid .Cell_center {
+  text-align: center;
+}/*# sourceMappingURL=Ref_specialist.css.map */
