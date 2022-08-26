@@ -28,7 +28,7 @@
 .flag{
     display: flex;
     align-items: center;
-    background-image: url("../../../images/flag.png");
+    background-image: url("../../images/flag.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;

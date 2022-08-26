@@ -1,0 +1,30 @@
+.Card {
+  border: 2px solid red;
+  border-radius: 0 0 10px 10px;
+  width: 305px;
+  box-sizing: border-box;
+  height: 223px;
+}
+.Card .Img_container {
+  border-radius: 10px 10px 0 0;
+  display: flex;
+  justify-content: center;
+  background-color: green;
+  width: 305px;
+  height: 137px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: 1.8rem;
+}
+.Card .Title_container {
+  height: 38%;
+  border: 2px solid yellow;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 100;
+  padding-left: 1rem;
+}
+.Card .Title_container .Title_vehicule {
+  font-family: "Poppins-ExtraBold";
+}/*# sourceMappingURL=Vehicule_card.css.map */

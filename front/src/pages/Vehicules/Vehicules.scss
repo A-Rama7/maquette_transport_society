@@ -1,0 +1,21 @@
+.Vehicules{
+    border: 1px solid green;
+    margin-top: 4rem;
+    margin-left: 11rem;
+    margin-right:11rem;
+
+    .Vehicule_title{
+        font-family: 'Poppins-ExtraBold';
+        display: flex;
+        justify-content: center;
+        font-size: 2.5rem;
+    }
+    .Vehicule_list{
+        display: flex;
+        // flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        row-gap: 3rem;
+        column-gap: 5rem;
+    }
+}
