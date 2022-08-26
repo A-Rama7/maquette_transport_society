@@ -1,0 +1,47 @@
+.About{
+    display: flex;
+    border: 1px solid blue;
+    margin-top: 4rem;
+    margin-left: 2rem;
+    margin-right: 3rem;
+
+    .Text_About_Wrapper{
+        margin-right: 2rem;
+        width: 50%;
+
+        .Big_Texte_About{
+            font-family: "Poppins-ExtraBold";
+            font-size: 40px;
+            line-height: 60px;
+        }
+        
+        .Subtitle_description{
+            color: green;
+            font-family: "Poppins-ExtraBold";
+            font-size: 20px;
+        }
+
+        .Description_Society{
+            font-family: "Muli";
+            margin-right: 10rem
+        }
+
+        .Society_numbers{
+            color: green;
+            font-family: "Poppins-ExtraBold";
+            font-size: 20px;
+            margin-top: 5rem;
+        }
+    }
+
+    .Img_About_Wrapper{
+        border: 1px solid pink;
+        border-radius: 7px;
+        width: 50%;
+        img{
+            border-radius: 7px;
+            height: 600px;
+            object-fit: cover;
+        }
+    }
+}

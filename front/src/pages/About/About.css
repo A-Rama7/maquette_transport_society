@@ -1,0 +1,42 @@
+.About {
+  display: flex;
+  border: 1px solid blue;
+  margin-top: 4rem;
+  margin-left: 2rem;
+  margin-right: 3rem;
+}
+.About .Text_About_Wrapper {
+  margin-right: 2rem;
+  width: 50%;
+}
+.About .Text_About_Wrapper .Big_Texte_About {
+  font-family: "Poppins-ExtraBold";
+  font-size: 40px;
+  line-height: 60px;
+}
+.About .Text_About_Wrapper .Subtitle_description {
+  color: green;
+  font-family: "Poppins-ExtraBold";
+  font-size: 20px;
+}
+.About .Text_About_Wrapper .Description_Society {
+  font-family: "Muli";
+  margin-right: 10rem;
+}
+.About .Text_About_Wrapper .Society_numbers {
+  color: green;
+  font-family: "Poppins-ExtraBold";
+  font-size: 20px;
+  margin-top: 5rem;
+}
+.About .Img_About_Wrapper {
+  border: 1px solid pink;
+  border-radius: 7px;
+  width: 50%;
+}
+.About .Img_About_Wrapper img {
+  border-radius: 7px;
+  height: 600px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=About.css.map */

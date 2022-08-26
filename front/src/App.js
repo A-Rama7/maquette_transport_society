@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Vehicules from "./pages/Vehicules/Vehicules";
 import Map from "./pages/Map/Map";
 import Banner from "./components/Banner/Banner";
+import About from "./pages/About/About";
 
 function App() {
   return (
@@ -15,9 +16,10 @@ function App() {
           path="/"
           element={
             <div className="App">
-                    <Navbar/>
+              <Navbar/>
               <Banner/>
               <Vehicules/>
+              <About/>
               <Map/>
             </div>
           }
