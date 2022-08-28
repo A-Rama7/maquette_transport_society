@@ -17,7 +17,7 @@ export default function Navbar() {
                 <div className="Logo_container">
                     <Link to="#" className="logo">
                         <img src={logo} alt="Logo" />
-                        <h3 className="Logo_title">Transport Society</h3>
+                        <h3 className="Logo_title">Transport society</h3>
                     </Link>
                 </div>
                 <ul className="nav-list ms-auto">

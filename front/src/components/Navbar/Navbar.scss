@@ -4,6 +4,8 @@
     justify-content: space-between;
     padding-left: 1rem;
     padding-right: 1rem;
+    font-family: "Poppins";
+    font-weight: bold;
 }
 
 .Logo_container {
@@ -11,7 +13,8 @@
     /* border: 1px solid blue; */
     width: 90px;
     margin: 10px;
-
+    font-family: "Poppins";
+    font-weight: bolder;
     z-index: 30;
 }
 
@@ -84,6 +87,8 @@
     
         .logo{
             // padding: 1em;
+            font-family: "Poppins";
+            font-weight: bolder;
             z-index: 20;
             img {
               width: 100px;
