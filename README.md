@@ -1,7 +1,7 @@
 
 # Ce projet a été réaliser avec React
 
-# Etapes pour démarrer le projet:
+## Etapes pour démarrer le projet:
 
 1) Se déplacer dans le dossier front
 
@@ -15,10 +15,10 @@
 
 Il manque :
 
--La partie responsive (sauf au niveau de la navbar)
--La partie contact
--La map n'est pas clean
--Le footer
+1) La partie responsive (sauf au niveau de la navbar)
+2) La partie contact
+3) La map n'est pas clean
+4) Le footer
 
 
 
