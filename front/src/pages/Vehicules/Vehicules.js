@@ -23,7 +23,7 @@ export default function Vehicules() {
   ));
 
   return (
-    <div className="Vehicules">
+    <div className="Vehicules" id="Vehicules">
       <h2 className="Vehicule_title">Our current range of vehicules</h2>
       <div className="Vehicule_list ">{listCards}</div>
     </div>

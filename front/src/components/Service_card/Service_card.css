@@ -1,0 +1,10 @@
+.Service_card {
+  max-width: 300px;
+}
+.Service_card .Service_card_title {
+  font-family: "Poppins-ExtraBold";
+  font-size: 1.5rem;
+}
+.Service_card .Service_card_text {
+  font-family: "Muli";
+}/*# sourceMappingURL=Service_card.css.map */

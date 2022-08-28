@@ -11,13 +11,13 @@ import Full_service from "./pages/Full_service/Full_service";
 
 function App() {
   return (
-    <div>
+    <div className="App">
 
       <Routes>
         <Route
           path="/"
           element={
-            <div className="App">
+            <div>
               <Navbar/>
               <Banner/>
               <Vehicules/>

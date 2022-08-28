@@ -1,5 +1,5 @@
 .Navbar {
-    border: 1px solid green;
+    /* border: 1px solid green; */
     display: flex;
     justify-content: space-between;
     padding-left: 1rem;
@@ -15,15 +15,16 @@
 }
 
 .nav-list{
+
+    /* border: 1px solid blue; */
     display: flex;
-    border: 1px solid blue;
     align-items: center;
     gap: 2rem;
 }
 
-.nav-item{
+/* .nav-item{
     border: 1px solid red;
-}
+} */
 
 .flag{
     display: flex;

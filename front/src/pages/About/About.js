@@ -18,7 +18,7 @@ const listCards = Numbers_list.map((card, index) => (
 
 export default function About() {
   return (
-    <div className="About">
+    <div className="About" id="About">
       <div className="Text_About_Wrapper">
         <h2 className="Big_Texte_About">
           Working together <br></br>to ensure health & safety<br></br> and Food

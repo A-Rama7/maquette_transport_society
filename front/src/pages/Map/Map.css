@@ -1,4 +1,7 @@
-.Map {
+.Section_Map {
+  margin-top: 4rem;
+}
+.Section_Map .Map {
   width: 100vw;
   height: 650px;
 }/*# sourceMappingURL=Map.css.map */

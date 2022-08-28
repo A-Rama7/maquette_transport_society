@@ -4,7 +4,7 @@ import Front_car from "../../images/Front_car.png";
 
 export default function Ref_specialist() {
   return (
-    <div className="Ref_specialist">
+    <div className="Ref_specialist" id="Ref_specialist">
       <h3 className="Green_title">Transport society</h3>
       <h1 className="Ref_Title">The refrigerator specialist</h1>
       <div className="Expertise_Grid grid grid-cols-6 grid-rows-3 ">

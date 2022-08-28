@@ -1,4 +1,30 @@
 .Full_service {
   border: 1px solid red;
-  margin-top: 4rem;
+  margin-top: 8rem;
+  display: flex;
+  align-items: center;
+  background-image: url("../../images/FULL_SERVICE.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 850px;
+  color: white;
+}
+.Full_service .Text_zone {
+  margin-left: 50%;
+  margin-top: 5rem;
+}
+.Full_service .Text_zone .Title_Full_Service {
+  font-family: "Poppins-ExtraBold";
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+.Full_service .Text_zone .Download_btn {
+  font-family: "Muli";
+  color: black;
+  background-color: white;
+  background-color: white;
+  width: 300px;
+  height: 50px;
+  margin-top: 3rem;
 }/*# sourceMappingURL=Full_service.css.map */

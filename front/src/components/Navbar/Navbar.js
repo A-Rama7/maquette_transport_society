@@ -2,7 +2,7 @@ import React from "react";
 import { useState, useEffect } from "react";
 import "./Navbar.css";
 import logo from "../Navbar/noun-truck-1076812.png";
-import { Link } from "react-router-dom";
+import {HashLink as Link} from "react-router-hash-link";
 
 export default function Navbar() {
     const [isActive, setActive] = useState(false);
@@ -21,19 +21,19 @@ export default function Navbar() {
             </div>
             <ul className={isActive ? "nav-list nav-active ms-auto" : "nav-list ms-auto"}>
                 <li className="nav-item">
-                    <Link to="#" className="nav_link" onClick={() => ToggleClass()}>Our vehicules</Link>
+                    <Link to="#Vehicules" className="nav_link" onClick={() => ToggleClass()}>Our vehicules</Link>
                 </li>
                 <li className="nav-item">
                     <Link to="#About" className="nav_link" onClick={() => ToggleClass()}>About transport society</Link>
                 </li>
                 <li className="nav-item">
-                    <Link to="#Projets" className="nav_link" onClick={() => ToggleClass()}>The refrigeration specialist</Link>
+                    <Link to="#Ref_specialist" className="nav_link" onClick={() => ToggleClass()}>The refrigeration specialist</Link>
                 </li>
                 <li className="nav-item">
-                    <Link to="#Contact" className="nav_link" onClick={() => ToggleClass()}>Full service!</Link>
+                    <Link to="#Full_service" className="nav_link" onClick={() => ToggleClass()}>Full service!</Link>
                 </li>
                 <li className="nav-item flex gap-1">
-                    <Link to="#Contact" className="nav_link" onClick={() => ToggleClass()}>Our agencies</Link>
+                    <Link to="#Map" className="nav_link" onClick={() => ToggleClass()}>Our agencies</Link>
                 </li>
                 <li className="nav-item nav-item_south_africa flex gap-1">
                     <div className="flag"></div>
