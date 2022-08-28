@@ -72,7 +72,7 @@ export default function Navbar() {
                     </li>
                     <li className="nav-item-resp nav-item_south_africa">
                         <div className="flag"></div>
-                        <Link to="#Contact" className="nav_link south_africa" onClick={() => ToggleClass()}>South Africa
+                        <Link to="#Contact" className="nav_link_resp south_africa" onClick={() => ToggleClass()}>South Africa
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={4.0} stroke="currentColor" className="arrow w-3 h-3">
                             <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
                         </svg>

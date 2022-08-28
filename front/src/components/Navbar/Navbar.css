@@ -76,17 +76,16 @@
   .Navbar_resp .logo img {
     width: 100px;
   }
-  .Navbar_resp .nav_link-resp {
+  .Navbar_resp .nav_link_resp {
     color: #ffffff;
     text-decoration: none;
-    font-size: 2.2rem;
     padding-bottom: 10px;
     border-bottom: 1px solid transparent;
     transition: 0.3s;
     z-index: 20;
   }
-  .Navbar_resp .nav_link-resp:hover, .Navbar_resp .nav_link-resp:active, .Navbar_resp .nav_link-resp.active {
-    border-bottom: 3px solid #91C4D9;
+  .Navbar_resp .nav_link_resp:hover, .Navbar_resp .nav_link_resp:active, .Navbar_resp .nav_link_resp.active {
+    border-bottom: 3px solid #039F4E;
   }
   .nav-list-resp {
     display: flex;
@@ -150,7 +149,7 @@
 @media screen and (max-width: 1100px) {
   .line {
     fill: none;
-    stroke: #000000;
+    stroke: #039F4E;
     stroke-width: 6px;
     stroke-linecap: round;
     stroke-linejoin: round;
