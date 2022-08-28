@@ -1,53 +1,253 @@
-.Navbar {
-    /* border: 1px solid green; */
-    display: flex;
-    justify-content: space-between;
-    padding-left: 1rem;
-    padding-right: 1rem;
+.Navbar_not_resp {
+  /* border: 1px solid green; */
+  display: flex;
+  justify-content: space-between;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .Logo_container {
-    /* background-color: black; */
-    /* border: 1px solid blue; */
-    width: 90px;
-    margin: 10px;
-
-    z-index: 10;
+  /* background-color: black; */
+  /* border: 1px solid blue; */
+  width: 90px;
+  margin: 10px;
+  z-index: 10;
 }
 
-.nav-list{
-
-    /* border: 1px solid blue; */
-    display: flex;
-    align-items: center;
-    gap: 2rem;
+.nav-list {
+  /* border: 1px solid blue; */
+  display: flex;
+  align-items: center;
+  gap: 2rem;
 }
 
 /* .nav-item{
     border: 1px solid red;
 } */
-
-.flag{
-    display: flex;
-    align-items: center;
-    background-image: url("../../images/flag.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 40px;
-    width: 50px;
-
+.flag {
+  display: flex;
+  align-items: center;
+  background-image: url("../../images/flag.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 40px;
+  width: 50px;
 }
 
 /* .nav-item_south_africa{
     align-items: center;
 } */
-.arrow{
-    margin-top: 5px;
+.arrow {
+  margin-top: 5px;
 }
 
-.south_africa{
-    display: flex;
-    align-items: center;
-    gap: 5px;
+.south_africa {
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
+
+@media screen and (max-width: 1100px) {
+  .Navbar_not_resp {
+    /* border: 1px solid green; */
+    display: none;
+    /* justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem; */
+  }
+  .Navbar_resp {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 800;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-49.8%);
+    width: 96%;
+    z-index: 20;
+  }
+  .Navbar_resp .stack {
+    display: flex;
+    justify-content: space-between;
+  }
+  .Navbar_resp .logo {
+    z-index: 10;
+  }
+  .Navbar_resp .logo img {
+    width: 100px;
+  }
+  .Navbar_resp .nav_link-resp {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 2.2rem;
+    padding-bottom: 10px;
+    border-bottom: 1px solid transparent;
+    transition: 0.3s;
+    z-index: 20;
+  }
+  .Navbar_resp .nav_link-resp:hover, .Navbar_resp .nav_link-resp:active, .Navbar_resp .nav_link-resp.active {
+    border-bottom: 3px solid #91C4D9;
+  }
+  .nav-list-resp {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    width: 118vw;
+    height: 100vh;
+    top: -100vh;
+    left: -12%;
+    position: absolute;
+    background: #021826;
+    transition: all 0.5s ease-out;
+    overflow: hidden;
+    z-index: 20;
+  }
+  .nav-active {
+    opacity: 0.95;
+    top: -80px;
+  }
+  svg {
+    height: 80px;
+    position: absolute;
+    width: 80px;
+    cursor: pointer;
+    z-index: 20;
+  }
+  .plates {
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 160px;
+    width: 640px;
+  }
+  /* El segundo plato */
+}
+@media screen and (max-width: 1100px) and (max-width: 640px) {
+  .plates {
+    width: 320px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .plate {
+    height: 80px;
+    width: 80px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .burger {
+    filter: url(#gooeyness);
+    z-index: 20;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .x {
+    transform: scale(0);
+    transition: transform 400ms;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .line {
+    fill: none;
+    stroke: #000000;
+    stroke-width: 6px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    transform-origin: 50%;
+    transition: stroke-dasharray 500ms 200ms, stroke-dashoffset 500ms 200ms, transform 500ms 200ms;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .x .line {
+    stroke-width: 5.5px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .active .x {
+    transform: scale(1);
+    transition: transform 400ms 350ms;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .plate2 .line1 {
+    stroke-dasharray: 21 185.627532959;
+    transition-delay: 0;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .plate2 .line2 {
+    stroke-dasharray: 21 178.6514129639;
+    transition-delay: 30ms;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .plate2 .line3 {
+    stroke-dasharray: 21 197.9242553711;
+    transition-delay: 60ms;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .plate2 .line4 {
+    stroke-dasharray: 21 190.6597137451;
+    transition-delay: 90ms;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .plate2 .line5 {
+    stroke-dasharray: 21 208.5287475586;
+    transition-delay: 120ms;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .plate2 .line6 {
+    stroke-dasharray: 21 186.5970306396;
+    transition-delay: 150ms;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .active.plate2 .line1 {
+    stroke-dasharray: 5 185.627532959;
+    stroke-dashoffset: -141px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .active.plate2 .line2 {
+    stroke-dasharray: 5 178.6514129639;
+    stroke-dashoffset: -137px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .active.plate2 .line3 {
+    stroke-dasharray: 5 197.9242553711;
+    stroke-dashoffset: -176px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .active.plate2 .line4 {
+    stroke-dasharray: 5 190.6597137451;
+    stroke-dashoffset: -159px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .active.plate2 .line5 {
+    stroke-dasharray: 5 208.5287475586;
+    stroke-dashoffset: -139px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .active.plate2 .line6 {
+    stroke-dasharray: 5 186.5970306396;
+    stroke-dashoffset: -176px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .active.plate2 .x {
+    transition: transform 400ms 250ms;
+  }
+}
+@media screen and (min-width: 1100px) {
+  .Navbar_resp {
+    display: none;
+  }
+}/*# sourceMappingURL=Navbar.css.map */

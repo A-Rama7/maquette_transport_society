@@ -36,7 +36,11 @@
             height: 50px;
             margin-top: 2rem;
         }
-
     }
+}
 
+@media screen and (max-width: 1100px) {
+    .Banner {
+        padding-top: 4rem;
+    }
 }
