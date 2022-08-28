@@ -11,6 +11,14 @@
 3) Lancer l'application avec:
     `npm start`
 
+## Avancée du projet
+
+Il manque :
+
+-La partie responsive (sauf au niveau de la navbar)
+-La partie contact
+-La map n'est pas clean
+-Le footer
 
 
 
