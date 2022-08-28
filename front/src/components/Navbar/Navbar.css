@@ -8,9 +8,10 @@
 
 .Logo_container {
     /* background-color: black; */
+    /* border: 1px solid blue; */
     width: 90px;
     margin: 10px;
-    border: 1px solid blue;
+
     z-index: 10;
 }
 

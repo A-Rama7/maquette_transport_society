@@ -1,6 +1,5 @@
 .About {
   display: flex;
-  border: 1px solid blue;
   margin-top: 4rem;
   margin-left: 3rem;
   margin-right: 3rem;
@@ -30,7 +29,6 @@
   margin-top: 5rem;
 }
 .About .Img_About_Wrapper {
-  border: 1px solid pink;
   border-radius: 7px;
   width: 50%;
 }

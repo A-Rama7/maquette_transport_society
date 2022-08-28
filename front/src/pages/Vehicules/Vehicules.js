@@ -10,10 +10,10 @@ import UD_Truck_Croner from "../../images/UD_Truck_Croner.png";
 export default function Vehicules() {
   const cards = [
     { title: "UD Truck Croner", title2: "PKE250 H30", img: UD_Truck_Croner, id: 1 },
-    { title: "Isuzu_FTR_850", img: Isuzu_FTR_850, id: 2 },
-    { title: "Isuzu_NQR_500", img: Isuzu_NQR_500, id: 3 },
-    { title: "Toyota_Dyna", img: Toyota_Dyna, id: 4 },
-    { title: "Fiat_Dobla_Fourgon", img: Fiat_Dobla_Fourgon, id: 5 },
+    { title: "Isuzu FTR 850", img: Isuzu_FTR_850, id: 2 },
+    { title: "Isuzu NQR 500", img: Isuzu_NQR_500, id: 3 },
+    { title: "Toyota Dyna", img: Toyota_Dyna, id: 4 },
+    { title: "Fiat Dobla Fourgon", img: Fiat_Dobla_Fourgon, id: 5 },
   ];
 
   const listCards = cards.map((card, index) => (
